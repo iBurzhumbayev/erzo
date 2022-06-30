@@ -1,0 +1,41 @@
+.feed-form 
+    display: flex
+    flex-direction: column
+    &_flex
+        display: flex
+        justify-content: space-between
+        margin-top: 21px
+    input 
+        height: 43px
+        background-color: #ffffff
+        border: 1px solid #726B6B
+        padding: 0 12px
+        color: #787878
+        font-weight: 400
+        font-size: 16px
+        &:first-child
+            width: 62%
+        &:last-child
+            width: 35%
+        &:focus+label
+            display: none
+            
+    label
+        position: absolute
+        color:#FF0000
+        font-weight: 400
+        font-size: 16px
+        margin-left: 90px
+        margin-top: 9px
+        &:last-child
+            right: 152px
+    textarea
+        border: 1px solid #726B6B
+        background-color: #ffffff
+        height: 43px
+        padding: 0 12px
+        color: #787878
+        font-weight: 400
+        font-size: 16px
+        line-height: 40px
+        margin-top: 16px

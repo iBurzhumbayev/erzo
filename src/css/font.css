@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Formular';
+    src: url('../fonts/Formular.eot');
+    src: local('../fonts/Formular'),
+        url('../fonts/Formular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Formular.woff2') format('woff2'),
+        url('../fonts/Formular.woff') format('woff'),
+        url('../fonts/Formular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
